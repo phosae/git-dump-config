@@ -15,7 +15,7 @@ func main() {
 	// github public repo example
 	dumpToConfig("https://github.com/kubernetes-sigs/kind", "hack/build")
 	// gitlab auth with token example
-	token := "<your-token-hear>" // scopes: api, read_repository(not read_registry)
+	token := "<your-access-token-hear>" // scopes: api, read_repository(not read_registry)
 	cdeploys := fmt.Sprintf("https://oauth2:%s@gitlab.qiniu.io/qbox/c-deploy.git", token)
 	dumpToConfig(cdeploys, "callisto/templates/dora/base/service-gate")
 }
