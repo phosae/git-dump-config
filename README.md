@@ -7,7 +7,7 @@ go run main.go
 ```
 ## output
 ```
-start clone github repo: https://github.com/kubernetes-sigs/kind
+start clone git repository: https://github.com/kubernetes-sigs/kind
 Enumerating objects: 26486, done.
 Counting objects: 100% (30/30), done.
 Compressing objects: 100% (26/26), done.
@@ -18,7 +18,7 @@ dump git files(in 'hack/build') success:
         setup-go.sh
         goinstalldir.sh
         init-buildx.sh
-start clone github repo: https://oauth2:CTfJrDFMLoW7DgUbX_sH@gitlab.qiniu.io/qbox/c-deploy.git
+start clone git repository: https://oauth2:CTfJrDFMLoW7DgUbX_sH@gitlab.qiniu.io/qbox/c-deploy.git
 Counting objects: 68099, done.
 Compressing objects: 100% (26362/26362), done.
 Total 68099 (delta 40872), reused 66417 (delta 39621)

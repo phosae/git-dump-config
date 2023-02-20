@@ -21,7 +21,7 @@ func main() {
 }
 
 func dumpToConfig(repoURL, path string) {
-	fmt.Println("start clone github repo:", repoURL)
+	fmt.Println("start clone git repository:", repoURL)
 	repo, err := clone(repoURL)
 	if err != nil {
 		panic(err)
